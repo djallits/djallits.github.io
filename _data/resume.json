@@ -1,0 +1,336 @@
+{
+  "basics": {
+    "name": "Dan Jallits",
+    "label": "Software Engineering Leader",
+    "picture": "https://avatars.githubusercontent.com/u/10674226?v=4",
+    "email": "dan@jallits.com",
+    "phone": "(630) 234-3199",
+    "website": "https://dan.jallits.com",
+    "summary": "Throughout a quarter century career, consistently demonstrated a commitment to excellence, innovation, and effective leadership. Offering a diverse and accomplished career spanning various roles in technology, software development, and management. A journey showcasing a consistent drive to lead and innovate, resulting in significant improvements and achievements across multiple organizations.",
+    "location": {
+      "address": "733 N 3rd St",
+      "postalCode": "60119-8968",
+      "city": "Elburn",
+      "countryCode": "US",
+      "region": "Illinois"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "djallits",
+        "url": "https://github.com/djallits"
+      },
+      {
+        "network": "GitLab",
+        "username": "djallits",
+        "url": "https://gitlab.com/djallits"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "djallits",
+        "url": "https://www.linkedin.com/in/djallits"
+      },
+      {
+        "network": "Stackoverflow",
+        "username": "2073216/djallits",
+        "url": "https://stackoverflow.com/users/2073216/djallits"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "BISSELL Homecare, Inc.",
+      "position": "Associate Director, Software Engineering",
+      "website": "https://www.bissell.com/",
+      "startDate": "2024-10-21",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "BISSELL Homecare, Inc.",
+      "position": "Senior Lead Software Engineer",
+      "website": "https://www.bissell.com/",
+      "startDate": "2022-03-01",
+      "endDate": "2024-10-18",
+      "summary": "Directed multiple software engineering teams comprising of  internal and external resources, both on and off-shore, responsible for Core Platform, E-Commerce, Consumer Care, and Identity domains. Builder of a DevSecOps culture, while introducing Platform Engineering and Site Reliability Engineering as concepts to the organization.",
+      "highlights": []
+    },
+    {
+      "company": "Farm Journal, Inc.",
+      "position": "Director, Development and Applications",
+      "website": "https://www.farmjournal.com/",
+      "startDate": "2019-04-01",
+      "endDate": "2021-11-15",
+      "summary": "Established strategic roadmaps for digital capabilities, ensuring alignment with business objectives. Managed a portfolio of digital investments, leading to enhanced core systems, increased efficiency, and improved services. All resulting in a 30% average improvement in ad viewability, a dramatic reduction in invalid traffic, and the successful relaunch of all editorial properties.",
+      "highlights": []
+    },
+    {
+      "company": "Farm Journal, Inc.",
+      "position": "Manager, Development and Applications",
+      "website": "https://www.farmjournal.com/",
+      "startDate": "2018-08-22",
+      "endDate": "2019-03-31",
+      "summary": "Standardized digital solutions, led Agile teams, and drove improvements in processes and standards. Contributions led to the professionalization of software development practices and the implementation of efficient development pipelines.",
+      "highlights": []
+    },
+    {
+      "company": "Grunt Style LLC",
+      "position": "Interim Director of Technology",
+      "website": "https://www.gruntstyle.com/",
+      "startDate": "2018-01-01",
+      "endDate": "2018-05-15",
+      "summary": "Showcased ability to align technical direction with business goals. Successfully guided the engineering team, facilitated stakeholder collaboration, and played a pivotal role in selecting an ERP system.",
+      "highlights": []
+    },
+    {
+      "company": "Grunt Style LLC",
+      "position": "Lead Software Engineer",
+      "website": "https://www.gruntstyle.com/",
+      "startDate": "2018-01-01",
+      "endDate": "2017-02-05",
+      "summary": "Demonstrated technical prowess by developing scalable solutions and leading cross-functional projects. Also extended the capabilities of open-source ERP systems and managed Salesforce implementations.",
+      "highlights": []
+    },
+    {
+      "company": "Amsive, LLC (formerly Vision.PS, LLC)",
+      "position": "Senior Developer",
+      "website": "https://www.visionps.com/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Highlighted leadership within Agile frameworks while guiding teams to successful deliveries. Demonstrated expertise in PHP, architectural improvements, and team development contributed to enhanced product quality.",
+      "highlights": []
+    },
+    {
+      "company": "Internet Brands, Inc. (formerly Infrastrategy L.L.C. d.b.a. Total Attorneys L.L.C.)",
+      "position": "Digital Operations Manager",
+      "website": "https://www.totalattorneys.com/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Focused on optimizing websites for advertising and analytics. Led cross-functional collaboration to ensure successful advertising product launches and website optimization.",
+      "highlights": []
+    },
+    {
+      "company": "Internet Brands, Inc. (formerly Infrastrategy L.L.C. d.b.a. Total Attorneys L.L.C.)",
+      "position": "Senior Developer",
+      "website": "https://www.totalattorneys.com/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Instrumental in system integration and enhancements. Provided expertise in architecture, documentation, and vendor management and contributed to a successful multi-year roadmap.",
+      "highlights": []
+    },
+    {
+      "company": "Verizon",
+      "position": "Systems Engineer",
+      "website": "https://www.verizon.com/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Showcased skills in PHP development and project management. Placed emphasis on high-quality code and adherence to best practices contributing to successfully deploying a proprietary, API-First, Learning Content Management System.",
+      "highlights": []
+    },
+    {
+      "company": "Tribune Broadcasting Company, LLC",
+      "position": "Digital Operations Manager",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Oversaw the migration of broadcast journalism websites to WordPress VIP while launching new native mobile applications in parallel, showcasing leadership in managing complex projects and ensuring technical compatibility.",
+      "highlights": []
+    },
+    {
+      "company": "Xumulus, Inc.",
+      "position": "Principal Solutions Consultant",
+      "website": "https://xumulus.com/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Demonstrated expertise in technology platforms and technical support. Contributions were pivotal in creating and implementing solutions for various business needs.",
+      "highlights": []
+    },
+    {
+      "company": "Ditley Web Design L.L.C.",
+      "position": "Web Developer",
+      "website": "https://www.ditley.com/",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Highlighted proficiency in WordPress, WooCommerce, and BuddyPress development. Contributions extended to codebase maintenance and collaboration within a creative team.Highlighted proficiency in WordPress, WooCommerce, and BuddyPress development. Contributions extended to codebase maintenance and collaboration within a creative team.",
+      "highlights": []
+    },
+    {
+      "company": "United States Marine Corps",
+      "position": "Infantry Non-Commissioned Officer",
+      "website": "https://www.marines.mil/",
+      "startDate": "1996-01-02",
+      "endDate": "2000-01-01",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Marine Corps League",
+      "position": "Regular Member",
+      "website": "http://mclnational.org/",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "American Legion",
+      "position": "Legionnaire",
+      "website": "https://www.legion.org/",
+      "startDate": "2021-05-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "DeVry University (formerly DeVry Institute of Technology)",
+      "area": "Computer Information Systems",
+      "studyType": "Coursework for an Bachelor of Science",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Business Applications Programming - COBOL (CIS 355)",
+        "Structured Analysis and Design (CIS 321)",
+        "Logic and Design (CIS 115)"
+      ]
+    },
+    {
+      "institution": "College of DuPage",
+      "area": "Political Science",
+      "studyType": "Coursework for an Associate in Arts",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "World Politics (POLS 2220)",
+        "Comparative Politics (POLS 2203)",
+        "State and Local Politics (POLS 1105)",
+        "American Politics (POLS 1101)"
+      ]
+    },
+    {
+      "institution": "College of DuPage",
+      "area": "Web Technician & Web Programmer",
+      "studyType": "Certificates",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "JavaScript and Advanced HTML (CIS 2320)",
+        "Programming Logic and Technique (CIS 1400)",
+        "HTML and CSS (CIS 1310)",
+        "Web Design Software (CIS 1300)",
+        "Introduction to Computer Information Systems (CIS 1150)",
+        "Windows Basics (CIS 1130)",
+        "The Internet (CIS 1120)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Architecture",
+      "level": "Master",
+      "keywords": [
+        "event-driven",
+        "microservices",
+        "api-first",
+        "cloud native sass",
+        "headless"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Expert",
+      "keywords": [
+        "Actix",
+        "Django",
+        "Laravel PHP",
+        "Next.js",
+        "NestJS",
+        "React",
+        "Ruby on Rails",
+        "Symfony PHP",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "Expert",
+      "keywords": [
+        "AWS Cloud Development Kit",
+        "Ansible",
+        "Docker",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Expert",
+      "keywords": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Rust",
+        "TypeScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Sign Languages",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Academics",
+      "keywords": [
+        "International Relations",
+        "U.S. Foreign Policy",
+        "World History"
+      ]
+    },
+    {
+      "name": "Athletics",
+      "keywords": [
+        "Major League Baseball",
+        "National Hockey League",
+        "Premier League Football"
+      ]
+    },
+    {
+      "name": "Fitness",
+      "keywords": [
+        "Cycling",
+        "Kayaking",
+        "Snowmobiling",
+        "Thru-Hiking"
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Reading",
+        "Shooting Sports"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Henry Ford",
+      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
+    }
+  ]
+}
