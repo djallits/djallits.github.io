@@ -1,0 +1,98 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name:              Dan Jallits
+  email:             dan@jallits.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    
+    Open `_data/authors.yml` to edit this text.
+
+  # This photo will be used in the about section
+  picture:
+    path:            https://via.placeholder.com/128x128
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            https://via.placeholder.com/128x128
+      2x:            https://via.placeholder.com/256x256
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  # You can also provide an absolute URL (starting with https://) instead of usernames
+  social:
+    
+    github:          djallits
+    gitlab:          djallits
+    linkedin:        djallits
+    stackoverflow:   2073216/djallits
+    # 500px:           <username>
+    # behance:         <username>
+    # blogger:         <number>
+    # delicious:       <username>
+    # deviantart:      <username>
+    # discord:         <invite-code>
+    # download:        <url>
+    # dribbble:        <username>
+    # ello:            <username>
+    # email:           <mail@domain.tld>
+    # facebook:        <username>
+    # flickr:          <string@string>
+    # foursquare:      <number>
+    # google:          <number>
+    # hackernews:      <username>
+    # instagram:       <username>
+    # keybase:         <username>
+    # lastfm:          <username>
+    # line:            <username>
+    # mastodon:        https://<url>
+    # medium:          <path>
+    # messenger:       https://<url>
+    # npm:             <username>
+    # paypal:          <username>
+    # pinterest:       <username>
+    # playstation:     https://<url>
+    # reddit:          <username>
+    # rss:             https://<url>/feed.xml
+    # signal:          <group-invite-code>
+    # slack:           https://<url>
+    # soundcloud:      <username>
+    # spotify:         <user>/<number>
+    # steam:           <number>
+    # stripe:          https://<url>
+    # stumbleupon:     <username>
+    # threads:         @<username>
+    # trello:          <firstnamelastname>
+    # tumblr:          <username>
+    # twitch:          <username>
+    # twitter:         <username>
+    # vimeo:           <username>
+    # vine:            <username>
+    # vk:              <username>
+    # wechat:          https://<url>
+    # x:               <username>
+    # xbox:            <gamer-tag>
+    # xing:            <firstname_lastname_counter>
+    # yelp:            <string>
+    # youtube:         <string_string_string>
+
+# Another author (optional)
+author2:
+  name:              <firtname> <lastname>
+  email:             <mail@domain.tld>
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    Open `_data/authors.yml` to edit this text.
+
+  picture:           https://placehold.it/128x128
+  twitter:           <username>
+  github:            <username>
