@@ -1,0 +1,348 @@
+{
+  "basics": {
+    "name": "Dan Jallits",
+    "label": "Software Engineering Leader",
+    "picture": "https://avatars.githubusercontent.com/u/10674226?v=4",
+    "email": "dan@jallits.com",
+    "phone": "(630) 234-3199",
+    "website": "https://dan.jallits.com",
+    "summary": "Throughout a quarter century career, consistently demonstrated a commitment to excellence, innovation, and effective leadership. Offering a diverse and accomplished career spanning various roles in technology, software development, and management. A journey showcasing a consistent drive to lead and innovate, resulting in significant improvements and achievements across multiple organizations.",
+    "location": {
+      "address": "733 N 3rd St",
+      "postalCode": "60119-8968",
+      "city": "Elburn",
+      "countryCode": "US",
+      "region": "Illinois"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "djallits",
+        "url": "https://github.com/djallits"
+      },
+      {
+        "network": "GitLab",
+        "username": "djallits",
+        "url": "https://gitlab.com/djallits"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "djallits",
+        "url": "https://www.linkedin.com/in/djallits"
+      },
+      {
+        "network": "Stackoverflow",
+        "username": "2073216/djallits",
+        "url": "https://stackoverflow.com/users/2073216/djallits"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "BISSELL Homecare, Inc.",
+      "position": "Associate Director, Software Engineering",
+      "website": "https://www.bissell.com/",
+      "startDate": "2024-10-21",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "BISSELL Homecare, Inc.",
+      "position": "Senior Lead Software Engineer",
+      "website": "https://www.bissell.com/",
+      "startDate": "2022-03-01",
+      "endDate": "2024-10-18",
+      "summary": "Managed the day-to-day activities of multiple software engineering teams comprising of  internal and external resources, both on and off-shore, responsible for Core Platform, E-Commerce, Consumer Care, and Identity domains. Builder of a DevSecOps culture, while introducing Platform Engineering and Site Reliability Engineering as concepts to the organization.",
+      "highlights": []
+    },
+    {
+      "company": "Farm Journal, Inc.",
+      "position": "Director, Development and Applications",
+      "website": "https://www.farmjournal.com/",
+      "startDate": "2019-04-01",
+      "endDate": "2021-11-15",
+      "summary": "Established strategic roadmaps for digital capabilities, ensuring alignment with business objectives. Managed a portfolio of digital investments, leading to enhanced core systems, increased efficiency, and improved services. All resulting in a 30% average improvement in ad viewability, a dramatic reduction in invalid traffic, and the successful relaunch of all editorial properties.",
+      "highlights": []
+    },
+    {
+      "company": "Farm Journal, Inc.",
+      "position": "Manager, Development and Applications",
+      "website": "https://www.farmjournal.com/",
+      "startDate": "2018-08-22",
+      "endDate": "2019-03-31",
+      "summary": "Standardized digital solutions, led Agile teams, and drove improvements in processes and standards. Contributions led to the professionalization of software development practices and the implementation of efficient development pipelines.",
+      "highlights": []
+    },
+    {
+      "company": "Grunt Style LLC",
+      "position": "Interim Director of Technology",
+      "website": "https://www.gruntstyle.com/",
+      "startDate": "2018-01-01",
+      "endDate": "2018-05-15",
+      "summary": "Showcased ability to align technical direction with business goals. Successfully guided the engineering team, facilitated stakeholder collaboration, and played a pivotal role in selecting an ERP system.",
+      "highlights": []
+    },
+    {
+      "company": "Grunt Style LLC",
+      "position": "Lead Software Engineer",
+      "website": "https://www.gruntstyle.com/",
+      "startDate": "2017-02-06",
+      "endDate": "2017-12-31",
+      "summary": "Demonstrated technical prowess by developing scalable solutions and leading cross-functional projects. Also extended the capabilities of open-source ERP systems and managed Salesforce implementations.",
+      "highlights": []
+    },
+    {
+      "company": "Amsive, LLC (formerly Vision.PS, LLC)",
+      "position": "Senior Developer",
+      "website": "https://www.visionps.com/",
+      "startDate": "2015-03-09",
+      "endDate": "2016-12-12",
+      "summary": "Highlighted leadership within Agile frameworks while guiding teams to successful deliveries. Demonstrated expertise in PHP, architectural improvements, and team development contributed to enhanced product quality.",
+      "highlights": []
+    },
+    {
+      "company": "Infrastrategy L.L.C. DBA Total Attorneys L.L.C. (acquired by Internet Brands, Inc.)",
+      "position": "Digital Operations Manager",
+      "website": "https://www.totalattorneys.com/",
+      "startDate": "2014-08-05",
+      "endDate": "2014-10-17",
+      "summary": "Focused on optimizing websites for advertising and analytics. Led cross-functional collaboration to ensure successful advertising product launches and website optimization.",
+      "highlights": []
+    },
+    {
+      "company": "Infrastrategy L.L.C. DBA Total Attorneys L.L.C. (acquired by Internet Brands, Inc.)",
+      "position": "Senior Developer",
+      "website": "https://www.totalattorneys.com/",
+      "startDate": "2013-08-12",
+      "endDate": "2014-08-01",
+      "summary": "Instrumental in system integration and enhancements. Provided expertise in architecture, documentation, and vendor management and contributed to a successful multi-year roadmap.",
+      "highlights": []
+    },
+    {
+      "company": "Verizon Communications Inc.",
+      "position": "Systems Engineer",
+      "website": "https://www.verizon.com/",
+      "startDate": "2013-05-13",
+      "endDate": "2013-08-02",
+      "summary": "Showcased skills in PHP development and project management. Placed emphasis on high-quality code and adherence to best practices contributing to successfully deploying a proprietary, API-First, Learning Content Management System.",
+      "highlights": []
+    },
+    {
+      "company": "Tribune Broadcasting Company, LLC",
+      "position": "Digital Operations Manager",
+      "website": "",
+      "startDate": "2012-07-02",
+      "endDate": "2012-12-14",
+      "summary": "Oversaw the migration of broadcast journalism websites to WordPress VIP while launching new native mobile applications in parallel, showcasing leadership in managing complex projects and ensuring technical compatibility.",
+      "highlights": []
+    },
+    {
+      "company": "Xumulus, Inc.",
+      "position": "Principal Solutions Consultant",
+      "website": "https://xumulus.com/",
+      "startDate": "2009-08-03",
+      "endDate": "2012-06-29",
+      "summary": "Demonstrated expertise in technology platforms and technical support. Contributions were pivotal in creating and implementing solutions for various business needs.",
+      "highlights": []
+    },
+    {
+      "company": "Ditley Web Design L.L.C.",
+      "position": "Web Developer",
+      "website": "https://www.ditley.com/",
+      "startDate": "2008-03-12",
+      "endDate": "2009-07-31",
+      "summary": "Highlighted proficiency in WordPress, WooCommerce, and BuddyPress development. Contributions extended to codebase maintenance and collaboration within a creative team.",
+      "highlights": []
+    },
+    {
+      "company": "United States Marine Corps",
+      "position": "Infantry Non-Commissioned Officer",
+      "website": "https://www.marines.mil/",
+      "startDate": "1996-01-02",
+      "endDate": "2000-01-01",
+      "summary": "Experienced in operations, team management, and mission execution. Demonstrated expertise in tactical planning, risk assessment, and resource allocation. Skilled in training, mentoring, and leading diverse teams in high-pressure environments to achieve strategic objectives.  Proven ability to adapt quickly, make sound decisions, and ensure mission success under challenging conditions. Highly disciplined with a commitment to excellence, accountability, and operational efficiency.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Marine Corps League",
+      "position": "Regular Member",
+      "website": "http://mclnational.org/",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "American Legion",
+      "position": "Legionnaire",
+      "website": "https://www.legion.org/",
+      "startDate": "2021-05-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "DeVry University (formerly DeVry Institute of Technology)",
+      "area": "Computer Information Systems",
+      "studyType": "Coursework for an Bachelor of Science",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Business Applications Programming - COBOL (CIS 355)",
+        "Structured Analysis and Design (CIS 321)",
+        "Logic and Design (CIS 115)"
+      ]
+    },
+    {
+      "institution": "College of DuPage",
+      "area": "Political Science",
+      "studyType": "Coursework for an Associate in Arts",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "World Politics (POLS 2220)",
+        "Comparative Politics (POLS 2203)",
+        "State and Local Politics (POLS 1105)",
+        "American Politics (POLS 1101)"
+      ]
+    },
+    {
+      "institution": "College of DuPage",
+      "area": "Web Technician & Web Programmer",
+      "studyType": "Certificates",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "JavaScript and Advanced HTML (CIS 2320)",
+        "Programming Logic and Technique (CIS 1400)",
+        "HTML and CSS (CIS 1310)",
+        "Web Design Software (CIS 1300)",
+        "Introduction to Computer Information Systems (CIS 1150)",
+        "Windows Basics (CIS 1130)",
+        "The Internet (CIS 1120)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Architecture",
+      "level": "Master",
+      "keywords": [
+        "event-driven",
+        "microservices",
+        "api-first",
+        "cloud native sass",
+        "headless"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Expert",
+      "keywords": [
+        "Actix",
+        "Django",
+        "Laravel PHP",
+        "Next.js",
+        "NestJS",
+        "React",
+        "Ruby on Rails",
+        "Symfony PHP",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "Expert",
+      "keywords": [
+        "AWS Cloud Development Kit",
+        "Ansible",
+        "Docker",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Expert",
+      "keywords": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Rust",
+        "TypeScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Sign Languages",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Academics",
+      "keywords": [
+        "International Relations",
+        "U.S. Foreign Policy",
+        "World History"
+      ]
+    },
+    {
+      "name": "Athletics",
+      "keywords": [
+        "Major League Baseball",
+        "National Hockey League",
+        "Premier League Football"
+      ]
+    },
+    {
+      "name": "Fitness",
+      "keywords": [
+        "Cycling",
+        "Kayaking",
+        "Snowmobiling",
+        "Thru-Hiking"
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Reading",
+        "Shooting Sports"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "John Purnell, SA",
+      "reference": "I worked with Dan for over 3yrs at Farm Journal. Dan was a technology leader in the company. He not only managed the web development team, but he also consistently provided strategic direction for many technical areas within the company. Dan also has very strong backend and frontend technical skills for web development, hosting, security, and data warehousing. Dan is a strident supporter of his team and the role of technology in an organization. I would work with Dan again and he would be a valuable addition to any company."
+    },
+    {
+      "name": "Jennifer Russell",
+      "reference": "Dan's superior technical knowledge and his drive to continually learn make him an asset to any development team or project. However, where he really shines is in his attention to detail, ability to see the big picture, and no-nonsense approach to problem-solving. During my time working with Dan, he was instrumental in streamlining and improving multiple software systems across the organization, as well as in driving cultural change in how people within the organization think about development and digital products. I would work with Dan again in a heartbeat."
+    },
+    {
+      "name": "Julianna Cole, MBA, PMP",
+      "reference": "Dan is a multi-faceted technologist who quickly added value as a member of our technology leadership team. When we hired Dan the company's technology team was still evolving - entering a phase of increased ownership for solutions that had been previously outsourced to providers with varying levels of adherence to software engineering practices. Dan quickly assessed the environment and the providers and began the process of introducing tools and techniques that allowed us to optimize our solution providers within the context of our broader technology strategy. Dan also distinguished himself as an advisor to internal product stakeholders at all levels of the organization - demonstrating a \"business first\" sensibility by posing questions that reflected an understanding of the intersection of technology, business needs and the digital ecosystem that often informs the success of feature enhancements or new products. These attributes and Dan's forthright manner helped him establish a close-knit, high-performing team that were obviously committed to supporting their leader."
+    },
+    {
+      "name": "Allen Ma",
+      "reference": "Dan and I worked together to launch over a dozen new websites built on the WordPress platform in a rapidly shifting and high pressure environment. As the Product lead, I had great appreciation for Dan's enthusiasm for working with multiple internal and external teams to take care of the thousand and one details that need to happen to get it done. On top of his technical and operational knowledge of the WordPress backend, the \"extra\" you get with Dan is his dedication to really taking the time to learn about the business and eagerness to brainstorm ideas for how to move the business forward. I highly recommend Dan for any company that is looking for someone who brings technical, operational, and business know-how, along with a can-do attitude to the table."
+    }
+  ]
+}
