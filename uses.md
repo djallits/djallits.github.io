@@ -20,7 +20,7 @@ sitemap: false
 * **Watch:** [Google Pixel Watch 2](https://store.google.com/product/pixel_watch_2?hl=en-US)
 * **Water Bottle:** [Owala FreeSip®](https://owalalife.com/products/freesip?variant=35724555518111) - 32oz Stainless Steel in Very, Very Black
 
-## Personal Owned Device
+## Home Office Furniture
 
 Before we get started, it is important to note that I work remotely (from home) 97.999% of the time. With a household of 7 including myself, fast Internet and a reliable home network are absolutely crucial.
 
@@ -28,6 +28,29 @@ Before we get started, it is important to note that I work remotely (from home) 
   * **Primary:** [Metronet](https://www.metronet.com/fiber-internet) - 1 Gig Fiber
   * **Secondary:** [MediacomCable](https://mediacomcable.com/) - 1 Gig Cable
 * **Home Network:** [Orbi 750 Series Tri-Band WiFi 6 System](https://www.netgear.com/home/wifi/mesh/) - AX4200 WiFi Mesh System
+
+A sedentary lifestyle for software developers, characterized by prolonged sitting while coding, can lead to health issues like cardiovascular disease, diabetes, and __obesity__, along with mental health problems and reduced productivity. To combat this, developers can incorporate regular exercise, stretching, and breaks into their daily routine, and consider using standing desks and/or walking pads. After a quarter of a century sitting at a crappy desk in a crappy chair, I have finally committed to make different lifestyle choices during my workday.  
+
+
+* [UPLIFT Standing Desk](https://www.upliftdesk.com/standing-desks/)
+  * V2 C-Frame - Black
+  * Solid Wood Desktop - Walnut Wide Plank - 72"x30"
+  * Pop Up Power Grommet - Black x2
+  * Advanced Comfort Flush Keypad - Black w/ Desk Bluetooth Adapter
+  * Soft Roll Desk Casters - Black
+  * Magnetic Cable Organizing Channel - Black
+  * Big Ultra-Thin Keyboard Tray w/ Quick-Adjust Mechanism and Track Spacer
+  * E7 LED Desk Lamp with Clamp - Black
+  * Desk Drawer - Black
+  * Glass Desk Blotter
+* [Bamboo Motion-X Board](https://www.upliftdesk.com/bamboo-motion-x-board-by-uplift-desk/) w/ Comfort Mat
+* [Chair Mat with Standing Cushion](https://www.upliftdesk.com/chair-mat-with-standing-cushion/)
+* [Intuition Ergonomic Chair w/ Headrest - Black](https://www.upliftdesk.com/intuition-ergonomic-chair/)
+* [Motion Stool - Black](https://www.upliftdesk.com/motion-stool-by-uplift-desk/?3340=2439)
+* [Mobile Storage Caddy - Black](https://www.upliftdesk.com/mobile-storage-caddy-by-uplift-desk/?11990=11379)
+* [3-Drawer File Cabinet - Black](https://www.upliftdesk.com/3-drawer-file-cabinet-by-uplift-desk/?2934=11224)
+
+## Personal Owned Device
 
 ### Hardware
 
@@ -39,18 +62,18 @@ Before we get started, it is important to note that I work remotely (from home) 
   * **GPU 2:** Intel UHD Graphics (Integrated)
   * **Display:** 15.6-inch FHD+ (1920 x 1200) InfinityEdge, anti-glare, touchscreen, 500 nits
   * **Wireless:** Killer™ Wi-Fi 6 AX500-DBS (2x2) built on Qualcomm® 6390 chipset + Bluetooth 5
-* **Display (Primary):** Dell P-Series 27" FHD - P2719H - Horizontal
-* **Display (Secondary):** Dell P-Series 24" FHD - P2419H - Vertical x2
-* **Display Mount:** [Mount-It Full Motion Triple Monitor Desk Mount](https://mount-it.com/products/mount-it-full-motion-triple-monitor-desk-mount-mi-753)
+* **Display:** [Dell UltraSharp 40 Curved Thunderbolt™ Hub Monitor - U4025QW](https://www.dell.com/en-us/shop/dell-ultrasharp-40-curved-thunderbolt-hub-monitor-u4025qw/apd/210-bmdp/monitors-monitor-accessories)
 * **Dock:** Dell USB 3.0 Dock - D3100
 * **Keyboard:** [Das Keyboard 6 Professional](https://www.daskeyboard.com/daskeyboard-6-professional/) w/ Soft Tactile, Cherry MX Brown Switches
 * **Microphone:** [Blue Yeticaster Pro Streaming Bundle](https://www.logitechg.com/en-us/products/streaming-gear/yeticaster-pro-streaming-microphone-bundle.988-000107.html?srsltid=AfmBOoq2U5kYmM39z8o5Ovx61cTHdW2IyvRU3rGX-OgtAaHxaIRbrnNt)
 * **Mouse:** [Logitech MX Master 3S](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006556.html?utm_source=Google&utm_medium=Paid-Search&utm_campaign=DEPT_FY25_QX_USA_LO_Logi_DTX-Logitech-Search-Product_Google_na&gad_source=1&gclid=Cj0KCQiAst67BhCEARIsAKKdWOn2R4aJeP8xVnxTt8K-b_n36YhY3j91Y4fvkVVBh3yqWPZRWTnG0-MaAtAoEALw_wcB)
+* **Printer:** [Brother Wireless Compact Monochrome Multi-Function Laser Printer - DCP-L2640DW](https://www.brother-usa.com/products/dcpl2640dw)
+* **Speakers:** [Creative Pebble X Plus](https://us.creative.com/p/speakers/creative-pebble-x-plus)
 * **WebCam:** [Dell UltraSharp Webcam (4K UHD) - WB7022](https://www.dell.com/en-us/shop/dell-ultrasharp-webcam-wb7022-4k-uhd/apd/319-bbhp/pc-accessories?gacd=9684992-1106-5761040-266906002-0&dgc=ST&SA360CID=71700000109602481&gad_source=1&gclid=Cj0KCQiAst67BhCEARIsAKKdWOmGsjFO4_mhKQ28FJutjVoFJSoygKwRGGil57agBsGOazYxA4r9Nd4aAtGvEALw_wcB&gclsrc=aw.ds)
 
 ### Software
 
-* **Kernel:** [Linux 6.12.X](https://www.kernel.org/)
+* **Kernel:** [Linux 6.13.X](https://www.kernel.org/)
 * **Operating System:** [Arch Linux x86_64](https://archlinux.org/)
 * **Window Manager:** Mutter (Wayland)
   * **Theme:** Adwaita
@@ -138,28 +161,6 @@ Check out my [dotfiles](https://github.com/djallits/dotfiles).
 * [Proton](https://proton.me/) - Family Plan
 * [Spotify](https://www.spotify.com/us/premium/)
 * [WakaTime](https://wakatime.com/)
-
-### 2025 Upgrade Wishlist
-
-* [Dell Single Monitor Arm - MSA20](https://www.dell.com/en-us/shop/dell-single-monitor-arm-msa20/apd/482-bbdi/monitors-monitor-accessories)
-* [Dell UltraSharp 40 Curved Thunderbolt™ Hub Monitor - U4025QW](https://www.dell.com/en-us/shop/dell-ultrasharp-40-curved-thunderbolt-hub-monitor-u4025qw/apd/210-bmdp/monitors-monitor-accessories)
-* [Herman Miller Aeron Chair](https://store.hermanmiller.com/office-chairs-aeron/aeron-chair/100075479.html) - Size C
-* [UPLIFT Standing Desk](https://www.upliftdesk.com/standing-desks/)
-  * V2 C-Frame - Black
-  * 72" x 30" Walnut - Butcher Block 1.5"
-  * Soft Roll Casters - Black, raises desk 2.5"
-  * Advanced Comfort Angled Keypad - Black w/ Bluetooth Adapter
-  * Magnetic Cable Organizing Channel - Black
-  * 2 Power Grommets with USB - Black
-  * Big Ultra-Thin [Quick-Adjust] Keyboard Tray - Black
-  * Desk Drawer - Black
-  * LED Desk Lamp E7 with Clamp - Black
-  * Desk Organizer Set - Black Bamboo
-  * Glass Desk Blotter
-  * 3-Drawer File Cabinet - Black
-  * Mobile Storage Caddy - Black
-  * Chair Mat with Standing Cushion
-  * Bamboo Motion-X Board w/ Comfort Mat Standing Board
 
 ## Work Provided Device
 
