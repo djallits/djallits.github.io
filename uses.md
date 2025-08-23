@@ -74,47 +74,36 @@ A sedentary lifestyle for software developers, characterized by prolonged sittin
 ### Software
 
 * **Kernel:** [Linux 6.13.X](https://www.kernel.org/)
-* **Operating System:** [Arch Linux x86_64](https://archlinux.org/)
+* **Distribution:** [Arch Linux x86_64](https://archlinux.org/)
 * **Window Manager:** Mutter (Wayland)
   * **Theme:** Adwaita
-* **Desktop Environment:** GNOME 47.2
+* **Desktop Environment:** GNOME 48.x
   * **Theme:** Adwaita [GTK2/3/4]
   * **Icons:** Adwaita [GTK2/3/4]
-  * **Font:** Cantarell (11pt) [GTK2/3/4]
+  * **Font:** Adwaita Sans (11pt) [GTK2/3/4]
   * **Cursor:** Adwaita (24px)
   * **Extensions:**
-    * [Arch Linux Updates Indicator](https://extensions.gnome.org/extension/1010/archlinux-updates-indicator/)
     * [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
     * [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
     * [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-    * [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/)
     * [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
+    * [Forge](https://github.com/forge-ext/forge)
     * [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
-    * [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
-    * [Lilypad](https://extensions.gnome.org/extension/7266/lilypad/)
-    * [Logo Menu](https://extensions.gnome.org/extension/4451/logo-menu/)
-    * [Media Progress](https://extensions.gnome.org/extension/6940/media-progress/)
     * [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
     * [Open Bar](https://extensions.gnome.org/extension/6580/open-bar/)
-    * [Pomodoro](https://gnomepomodoro.org/)
-    * [Rectangle](https://extensions.gnome.org/extension/6553/rectangle/)
-    * [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
-    * [Tweaks & Extensions in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
     * [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-    * [Weather O'Clock](https://extensions.gnome.org/extension/5470/weather-oclock/)
 * **Shell:** [Z Shell 5.9](https://www.zsh.org/)
   * **Framework:** [on my zsh](https://ohmyz.sh/)
     * **Plugins:**
-      * git
       * ssh-agent
       * zsh-autosuggestions
       * zsh-syntax-highlighting
       * fast-syntax-highlighting
       * zsh-autocomplete
-  * **Prompt:** [Spaceship](https://spaceship-prompt.sh/)
+  * **Prompt:** [Starship](https://starship.rs/)
   * **Font:** [Monaspace](https://github.com/githubnext/monaspace)
   * **Command Line Tools:**
-    * **File Manager:** [ranger](https://github.com/ranger/ranger)
+    * **File Manager:** [Yazi](https://yazi-rs.github.io/)
     * **IDE:** [Neovim](https://neovim.io/) w/ [LazyVim](https://www.lazyvim.org/)
       * **Plugins:**
         * [Snacks](https://github.com/folke/snacks.nvim)
@@ -122,7 +111,7 @@ A sedentary lifestyle for software developers, characterized by prolonged sittin
     * **Resource Monitor:** [btop++](https://github.com/aristocratos/btop)
     * **System Information:** [fastfetch](https://github.com/fastfetch-cli/fastfetch)
     * **Terminal Multiplexer:** [tmux](https://github.com/tmux/tmux)
-* **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/) or [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+* **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
 * **IDE:** [Visual Studio Code](https://code.visualstudio.com/)
   * **Theme:** [Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme)
   * **Font:** [Monaspace](https://github.com/githubnext/monaspace)
@@ -187,6 +176,8 @@ Check out my [dotfiles](https://github.com/djallits/dotfiles).
 * [GitHub Enterprise](https://github.com/enterprise)
 * [Pluralsight](https://www.pluralsight.com/)
 
-### 2025 Upgrade Wishlist
+### Upgrade List
 
-* It is never gonna happen.
+* [Framework Desktop](https://frame.work/desktop)
+* [Framework Laptop 16](https://frame.work/laptop16)
+
