@@ -12,13 +12,16 @@ sitemap: false
 ## Every Day Carry
 
 * **Blade:** [Benchmade Mini SOCP Dagger](https://www.benchmade.com/products/173bk)
-* **Earbuds:** Google Pixel Buds Pro
+* **Earbuds:** [Google Pixel Buds Pro 2](https://store.google.com/product/pixel_buds_pro_2?hl=en-US)
 * **Keychain:** [KeySmart Pro w/ Tile](https://www.getkeysmart.com/products/keysmart-pro-with-tile-smart-location-tracking)
 * **Lighter:** [Zippo Armor® High Polish Chrome](https://www.zippo.com/products/armor-high-polish-chrome)
-* **Phone:** [Google Pixel 8 Pro](https://store.google.com/product/pixel_8_pro?hl=en-US)
+* **Phone:** [Samsung Galaxy S25+](https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-plus-256gb-unlocked-sku-sm-s936uzkaxaa/)
 * **Wallet:** [Ridge Wallet](https://ridge.com/products/magsafe-wallet-gunmetal) - Classic Gunmetal
 * **Watch:** [Google Pixel Watch 2](https://store.google.com/product/pixel_watch_2?hl=en-US)
-* **Water Bottle:** [Owala FreeSip®](https://owalalife.com/products/freesip?variant=35724555518111) - 32oz Stainless Steel in Very, Very Black
+
+* **Coffee:** [Owala SmoothSip®]() - 24oz Slider with Handle in Very, Very Black
+* **Water:** [Owala FreeSip®](https://owalalife.com/products/freesip?variant=35724555518111) - 32oz Stainless Steel in Very, Very Black
+
 
 ## Home Office Furniture
 
@@ -73,37 +76,34 @@ A sedentary lifestyle for software developers, characterized by prolonged sittin
 
 ### Software
 
-* **Kernel:** [Linux 6.13.X](https://www.kernel.org/)
+* **Kernel:** [Linux 6.18.X](https://www.kernel.org/)
 * **Distribution:** [Arch Linux x86_64](https://archlinux.org/)
-* **Window Manager:** Mutter (Wayland)
-  * **Theme:** Adwaita
-* **Desktop Environment:** GNOME 48.x
-  * **Theme:** Adwaita [GTK2/3/4]
-  * **Icons:** Adwaita [GTK2/3/4]
-  * **Font:** Adwaita Sans (11pt) [GTK2/3/4]
-  * **Cursor:** Adwaita (24px)
-  * **Extensions:**
-    * [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-    * [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
-    * [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-    * [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
-    * [Forge](https://github.com/forge-ext/forge)
-    * [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
-    * [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
-    * [Open Bar](https://extensions.gnome.org/extension/6580/open-bar/)
-    * [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+* **Desktop Enviornment:**
+  * **Display Manager:** [sddm](https://github.com/sddm/sddm)
+  * **Session Manager:** [uwsm](https://github.com/Vladimir-csp/uwsm)
+  * **Window Manager:** [Hyprland](https://hypr.land/)
+  * **Launcher:** [Walker](https://github.com/abenz1267/walker)
+  * **Status Panel:** [Waybar](https://github.com/Alexays/Waybar)
 * **Shell:** [Z Shell 5.9](https://www.zsh.org/)
-  * **Framework:** [on my zsh](https://ohmyz.sh/)
+  * **Framework:** [oh my zsh](https://ohmyz.sh/)
     * **Plugins:**
       * ssh-agent
+      * git
+      * command-not-found
+      * colored-man-pages
+      * extract
+      * sudo
+      * z
       * zsh-autosuggestions
       * zsh-syntax-highlighting
       * fast-syntax-highlighting
       * zsh-autocomplete
   * **Prompt:** [Starship](https://starship.rs/)
-  * **Font:** [Monaspace](https://github.com/githubnext/monaspace)
-  * **Command Line Tools:**
+  * **Terminal User Interfaces:**
+    * **Bluetooth:** [bluetui](https://github.com/pythops/bluetui)
     * **File Manager:** [Yazi](https://yazi-rs.github.io/)
+    * **Wi-Fi:** [impala](https://github.com/pythops/impala)
+  * **Command Line Tools:**
     * **IDE:** [Neovim](https://neovim.io/) w/ [LazyVim](https://www.lazyvim.org/)
       * **Plugins:**
         * [Snacks](https://github.com/folke/snacks.nvim)
@@ -112,26 +112,11 @@ A sedentary lifestyle for software developers, characterized by prolonged sittin
     * **System Information:** [fastfetch](https://github.com/fastfetch-cli/fastfetch)
     * **Terminal Multiplexer:** [tmux](https://github.com/tmux/tmux)
 * **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
-* **IDE:** [Visual Studio Code](https://code.visualstudio.com/)
-  * **Theme:** [Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme)
-  * **Font:** [Monaspace](https://github.com/githubnext/monaspace)
-  * **General Extensions:**
-    * [GitHub Copilot](https://github.com/features/copilot?editor=vscode)
-    * [GitHub Copilot Chat](https://github.com/features/copilot?editor=vscode)
-    * [Project Manager](https://github.com/alefragnani/vscode-project-manager)
-    * [WakaTime](https://github.com/wakatime/vscode-wakatime)
-  * **Markdown Extensions:**
-    * [markdownlint](https://github.com/DavidAnson/vscode-markdownlint/i)
-    * [Markdown Checkboxes](https://github.com/mjbvz/vscode-markdown-checkboxes)
-    * [Markdown Emoji](https://github.com/mjbvz/vscode-markdown-emoji)
-    * [Markdown Footnotes](https://github.com/mjbvz/vscode-markdown-footnotes)
-    * [Markdown Mermaid](https://github.com/mjbvz/vscode-markdown-mermaid.git)
-    * [Markdown Preview GitHub Styling](https://github.com/mjbvz/vscode-github-markdown-preview-style)
-    * [Markdown YAML Preamble](https://github.com/mjbvz/vscode-markdown-yaml-preamble)
-  * **NodeJS/JavaScript Extensions:**
-  * **Rust Extensions:**
-    * [rust-analyzer](https://github.com/rust-lang/rust-analyzer)
-  * **TypeScript Extensions:**
+* **IDE:** [VSCodium](https://vscodium.com/)
+  * **Extensions:**
+    * [Claude Code](https://open-vsx.org/extension/Anthropic/claude-code)
+    * [Wakatime](https://open-vsx.org/extension/WakaTime/vscode-wakatime)
+* **Office:** [LibreOffice](https://www.libreoffice.org/)
 * **Notes:** [Obsidian](https://obsidian.md/)
 * **Terminal:** [Ghostty](https://ghostty.org/)
 
@@ -151,33 +136,33 @@ Check out my [dotfiles](https://github.com/djallits/dotfiles).
 * [Spotify](https://www.spotify.com/us/premium/)
 * [WakaTime](https://wakatime.com/)
 
-## Work Provided Device
-
-### Hardware
-
-* **Computer:** [Lenovo ThinkPad E14 Gen 2](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpade/e14-g2/22tpe14e4n2)
-  * **Processor:** 11th Generation Intel® Core™ i7-1165G7 (12MB Cache, up to 4.70 GHz, 4 Cores)
-  * **Memory:** 16GB DDR4 at 3200MHz
-  * **Hard Drive:** 1TB PCIe SSD
-  * **GPU:** Intel® Iris® Xe Graphics (Integrated)
-  * **Display:** 14-inch FHD (1920 x 1080) IPS, anti-glare, touchscreen, 300 nits
-  * **Wireless:** Intel® Wi-Fi 6 AX201 802.11AX + Bluetooth® 5.1
-
-### Software
-
-* **Operating System:** Microsoft Windows 10 Enterprise
-* **Browser:** Microsoft Edge
-* **IDE:** [Visual Studio Code](https://code.visualstudio.com/)
-  * Same setup as my personal device.
-
-
-### Paid Subscriptions
-
-* [GitHub Enterprise](https://github.com/enterprise)
-* [Pluralsight](https://www.pluralsight.com/)
-
 ### Upgrade List
 
 * [Framework Desktop](https://frame.work/desktop)
 * [Framework Laptop 16](https://frame.work/laptop16)
 
+## Work Provided Device
+
+### Hardware
+
+* **Computer:** Lenovo ThinkPad T14 Gen 5
+  * **Processor:** Intel® Core™ Ultra 7 155U Processor(Core™ Ultra 7 155U)
+  * **Memory:** 16 GB DDR5-5600
+  * **Hard Drive:** 512GB G4 Perf
+  * **Wireless Network:** Intel® Wi-Fi 6E AX211 2x2 AX vPro® + Bluetooth® 5.3
+  * **Camera:** 5MP RGB with Dual Microphone and Privacy Shutter
+  * **Graphics:** Intel® Graphics
+  * **Monitor:** 14" WUXGA
+
+### Software
+
+* **Operating System:** Microsoft Windows 11 Enterprise
+* **Browser:** Microsoft Edge
+* **IDE:** [Visual Studio Code](https://code.visualstudio.com/)
+  * Extensions:
+    * [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
+
+### Paid Subscriptions
+
+* [GitHub Enterprise](https://github.com/enterprise)
+* [Pluralsight](https://www.pluralsight.com/)
