@@ -3,8 +3,8 @@ layout: project
 title: 'Grunt Style'
 caption: Shopify Plus
 description: >
-  A special repository. Its README.md appears on my public GitLab and GitHub profiles. 
-date: 15 May 2018
+  Founded in 2009, Grunt Style is a U.S.-based apparel company that produces patriotic and military-themed clothing and accessories.
+date: 06 Feb 2017
 image: 
   path: /assets/img/projects/hydejack-site.jpg
   srcset: 

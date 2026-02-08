@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Troubleshooting the Qualcomm QCA6390 Chipset on Linux
+categories: [linux]
+tags: [qca6390, ath11k]
 ---
 
 # Troubleshooting the Qualcomm QCA6390 Chipset on Linux: Why It Happens and How to Fix It

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'BISSELL'
+title: 'BISSELL (v4)'
 caption: Salesforce Commerce Cloud
 description: >
   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
@@ -16,4 +16,3 @@ links:
     url: https://www.bissell.com/
 sitemap: false
 ---
-

@@ -1,13 +1,13 @@
 ---
 layout: welcome
-title: Hello, my name is Dan...
+title: Hello, my name is Dan Jallits
 cover: true
 sitemap: false
 ---
 
-## I'm an Associate Director for Software Engineering
+## I'm a Software Engineering Leader
 
-Software Engineering Leader focused on building reliable, scalable systems and high-performing teams within complex enterprise environments.
+Focused on building reliable, scalable systems and high-performing teams within complex enterprise environments.
 
 ---
 
@@ -15,7 +15,7 @@ Software Engineering Leader focused on building reliable, scalable systems and h
 
 - Leading multi-team engineering organizations (30–60+ engineers) delivering mission-critical systems  
 - Defining technical strategy and execution plans aligned to long-term business priorities  
-- [Scaling teams](https://careers.bissell.com/), platforms, and processes in regulated and high-availability environments  
+- Scaling teams, platforms, and processes in regulated and high-availability environments  
 - Partnering closely with Product, Architecture, Security, and Operations at the portfolio level  
 
 ---
@@ -66,12 +66,16 @@ This profile primarily reflects exploratory work and selective contributions.  M
 
 ### Connect
 
-- GitHub: https://github.com/djallits
-- LinkedIn: https://www.linkedin.com/in/djallits/
-- Website: https://dan.jallits.com/
+- GitHub: [https://github.com/djallits]{}
+- LinkedIn: [https://www.linkedin.com/in/djallits/]{}
+- Website: [https://dan.jallits.com/]
 
 Happy to connect on engineering leadership, platform strategy, or scaling teams in enterprise environments.
 
-<!--projects-->
+## Recent Posts
 
 <!--posts-->
+
+## Recent Projects
+
+<!--projects-->

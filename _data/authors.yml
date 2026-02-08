@@ -29,9 +29,7 @@ author1:
   social:
     
     github:          djallits
-    gitlab:          djallits
     linkedin:        djallits
-    stackoverflow:   2073216/djallits
     # 500px:           <username>
     # behance:         <username>
     # blogger:         <number>
@@ -51,6 +49,7 @@ author1:
     # keybase:         <username>
     # lastfm:          <username>
     # line:            <username>
+    # gitlab:          <username>
     # mastodon:        https://<url>
     # medium:          <path>
     # messenger:       https://<url>
