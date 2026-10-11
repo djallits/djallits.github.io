@@ -2,35 +2,373 @@
   "name": "Dan Jallits",
   "title": "A personal corner of the web.",
   "intro": "A home for the things I build, the ideas I explore, and the tools I use along the way.",
-  "about": "This is my space to share work, write in depth, and keep a record of what I\u2019m learning. You can also find me on GitHub and LinkedIn.",
+  "about": "This is my space to share work, write in depth, and keep a record of what I’m learning. You can also find me on GitHub and LinkedIn.",
   "github": "https://github.com/djallits",
   "linkedin": "https://www.linkedin.com/in/djallits/",
   "uses": [],
   "portfolio": [],
   "projects": [],
-  "posts": [],
+  "posts": [
+    {
+      "slug": "economics-enterprise-ai-hybrid-inference",
+      "title": "The Economics of Enterprise AI: Why Hybrid Inference Will Win",
+      "date": "2026-05-28",
+      "excerpt": "For a 50-person engineering team, inference placement can matter as much as model selection. Here’s how local hardware, shared infrastructure, and cloud services change the cost and governance equation.",
+      "tags": [
+        "AI infrastructure",
+        "Engineering leadership",
+        "Architecture"
+      ],
+      "sourceUrl": "https://www.linkedin.com/pulse/economics-enterprise-ai-why-hybrid-inference-win-dan-jallits-4tmnc/",
+      "paragraphs": [
+        "Enterprise AI conversations tend to revolve around what models can do: handle larger contexts, support more agents, automate more work, or reason through harder problems. The cost of running those models across an engineering organization gets much less attention.",
+        "That gap matters once a team moves beyond a pilot. A useful tool for a handful of engineers can become a substantial recurring expense when everyone uses it throughout the day.",
+        "The question I’d put in front of an engineering leadership team is simple: where should each workload run? My expectation is that most organizations will need a mix of local, shared, and hosted inference. The useful work is deciding which jobs belong in each."
+      ],
+      "sections": [
+        {
+          "heading": "Start with the workload, then look at the bill",
+          "paragraphs": [
+            "Consider a team of 50 software and data engineers using coding assistants, internal retrieval-augmented generation (RAG), documentation tools, lightweight agents, and semantic search. There is no single “AI workload” here. These tools have different demands, and their usage patterns will differ too.",
+            "Routing all of them through hosted services is an understandable starting point. It keeps deployment simple. But I’m concerned that some companies will repeat a familiar cloud-migration pattern: centralize first, postpone optimization, and gradually accept a rising bill as the cost of doing business.",
+            "Code completion, test generation, refactoring assistance, embeddings, internal search, and documentation drafting are worth evaluating on smaller models. Some will run well locally or on shared infrastructure. Others will need a stronger hosted model. The decision should come from tests against the team’s actual work, rather than an assumption that every request needs frontier inference."
+          ]
+        },
+        {
+          "heading": "What the numbers can—and can’t—tell us",
+          "paragraphs": [
+            "The estimates below are an illustrative planning scenario for that 50-person team. They are the ranges used in the original article, not vendor quotes or a benchmark of equivalent deployments. They do not establish a break-even point.",
+            "The options also overlap: a hosted service may use AWS underneath, and shared internal infrastructure can run on cloud GPUs. Model quality, usage, concurrency, hardware capacity, and operating costs must be made comparable before these ranges can support a procurement decision."
+          ],
+          "table": {
+            "headers": [
+              "Deployment pattern",
+              "Illustrative cost"
+            ],
+            "rows": [
+              [
+                "Fully hosted services",
+                "$8,500–$34,500 per month; $102,000–$414,000 annualized"
+              ],
+              [
+                "High-end local hardware for 50 engineers",
+                "$125,000–$300,000 upfront"
+              ],
+              [
+                "Shared Mac Mini cluster, 3–5 nodes",
+                "$9,000–$30,000 upfront"
+              ],
+              [
+                "Shared VPS / GPU infrastructure",
+                "$500–$8,000 per month"
+              ],
+              [
+                "AWS-based enterprise AI stack",
+                "$6,500–$43,500 per month"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Fully hosted: quick to adopt, recurring by design",
+          "paragraphs": [
+            "Hosted APIs, managed copilots, external embedding services, and cloud orchestration tools offer the shortest route to adoption. Teams get access to capable models without having to manage inference hardware themselves.",
+            "In this scenario, the estimated spend is $8,500–$34,500 a month, or $102,000–$414,000 a year. The attraction is straightforward: fast deployment, limited infrastructure ownership, and strong access to frontier models.",
+            "The part to watch is how the bill grows. API requests are metered, while managed products may add subscriptions or other charges. As usage expands, a workflow that feels inexpensive to an individual engineer can become costly across the team. Hosted inference remains valuable; it deserves the same scrutiny as any other recurring infrastructure expense."
+          ]
+        },
+        {
+          "heading": "Local inference: different economics, real constraints",
+          "paragraphs": [
+            "Developer laptops can now handle more inference work than many enterprise plans give them credit for. High-memory Apple Silicon machines and suitably equipped Linux or Windows systems can run local coding and reasoning models. Whether they are sufficient depends on the model and the task.",
+            "The hardware examples in this scenario are a Linux or Windows engineering system with 64 GB of RAM, an RTX-class GPU, and 2 TB of NVMe storage at $2,500–$4,000 per engineer; or an M-series MacBook Pro with 48–128 GB of unified memory at $3,000–$6,000 per engineer.",
+            "Across 50 engineers, those ranges imply $125,000–$300,000 of upfront procurement. That is a substantial investment, particularly if it replaces equipment the team already owns.",
+            "Local inference removes the per-request API charge for work performed on the device. It does not make inference free. Electricity, support, model maintenance, and eventual hardware replacement still count. What changes is the shape of the spending: more upfront investment and potentially less exposure to usage-based charges.",
+            "There are practical benefits beyond the bill. Suitable workflows can run offline, and fewer tasks depend on an external service. But a laptop must still have enough memory and compute for the chosen model, and local execution needs security and update policies of its own."
+          ]
+        },
+        {
+          "heading": "Shared inference: a platform the team has to operate",
+          "paragraphs": [
+            "Buying premium inference hardware for every engineer won’t suit every organization. Shared capacity is another option: GPU workstations, internal inference servers, Mac Mini clusters, or private and rented GPU infrastructure.",
+            "A three-to-five-node Mac Mini cluster is estimated here at $9,000–$30,000 upfront. Shared VPS or GPU infrastructure spans $500–$8,000 a month, depending on utilization. Those figures describe possible configurations, not a promise that any one of them will satisfy 50 engineers’ concurrent workloads.",
+            "The appeal is centralized model management and policy enforcement, a more consistent developer experience, and the opportunity to use hardware more efficiently. The tradeoff is ownership. Someone must manage access, updates, capacity, monitoring, and failures.",
+            "I’d treat shared inference as a platform capability with an accountable owner, rather than a server bought to make the API bill disappear."
+          ]
+        },
+        {
+          "heading": "AWS: familiar enterprise infrastructure, with its own bill",
+          "paragraphs": [
+            "An AWS-based stack can be easier to fit into established procurement, networking, and compliance processes. It may combine GPU-backed EC2 instances, ECS or EKS inference services, managed vector databases, Bedrock, and observability tooling.",
+            "The estimate in this scenario is $6,500–$43,500 a month, with the possibility of higher spending as scale increases. It should not be read as evidence that AWS is always more expensive. The architecture, utilization, and services selected determine the bill.",
+            "Cloud infrastructure can be a sensible choice for rapid experimentation, elastic demand, access to frontier models, or organizations that lack the capacity to operate their own inference platform. Compliance-heavy teams may also benefit from existing cloud controls, though compliance still depends on how the system is configured and used.",
+            "The question is whether a particular workload needs those capabilities. Paying for them by default across every workflow deserves a closer look."
+          ]
+        },
+        {
+          "heading": "Placement is also a governance decision",
+          "paragraphs": [
+            "Cost is only one reason to choose where inference runs. Data sensitivity, access controls, latency, resilience, and the ability to audit activity can change the answer even when one option appears cheaper.",
+            "A hybrid approach gives an organization several places to run work: on a developer’s device, on shared infrastructure under its control, or through a hosted model. It also requires clear rules for choosing among them. Which data may leave the organization? Which tasks need stronger reasoning? Which services are approved, and who owns those decisions?",
+            "Local execution is not automatically secure, and cloud execution is not automatically inappropriate. Each needs controls suited to the workload. A routing strategy without those controls is an incomplete architecture."
+          ]
+        },
+        {
+          "heading": "Bring finance into the comparison",
+          "paragraphs": [
+            "Hosted inference usually adds recurring operating expense. Owned hardware shifts more spending toward an upfront purchase and ongoing operation. That distinction matters to finance teams, but it is not enough on its own to decide the architecture.",
+            "Hardware can be depreciated where accounting rules allow; it can also sit underused or become unsuitable for the models a team wants to run. Cloud spending can be variable, but it avoids some procurement commitments. Compare both over a realistic planning period, including support, refresh cycles, and expected demand.",
+            "A hybrid setup may make costs more predictable by reserving hosted inference for work that benefits from it. That outcome has to be measured rather than assumed."
+          ]
+        },
+        {
+          "heading": "Build a placement strategy",
+          "paragraphs": [
+            "I expect enterprise AI to become a workload-placement problem. Teams will need to decide which tasks belong on devices, which need shared capacity, which justify frontier-model spend, and which data must remain inside controlled environments.",
+            "For the 50-person team in this example, I’d start by identifying a few recurring workflows, evaluating the model quality each requires, and comparing the cost of serving them in different places. Measure the developer experience alongside the bill. Savings are of little use if the tool makes everyday work slower or less reliable.",
+            "The hybrid case is strongest when each part earns its place: local inference for suitable tasks, shared infrastructure where pooled capacity helps, and hosted models where their capabilities justify the cost. That is an architectural decision worth making deliberately, before usage makes it for you."
+          ]
+        }
+      ],
+      "linkedinExtract": "A coding assistant that works well for five engineers can look very different on the bill when 50 people use it all day.\n\nBefore choosing another model or platform, I’d ask where each workload should run. Code completion, embeddings, documentation, and harder reasoning tasks don’t all have the same requirements.\n\nIn the full article, I compare local hardware, shared inference, hosted services, and an AWS-based stack using an illustrative 50-engineer scenario. The comparison includes the operating costs that don’t disappear when you buy hardware, plus the governance decisions behind workload placement."
+    },
+    {
+      "slug": "why-talented-teams-move-slowly",
+      "title": "Why Some Companies Move Slower Than Their Competitors — Even With Talented Teams",
+      "date": "2026-05-27",
+      "excerpt": "A new sales channel can turn into a months-long integration project when every team inherits the same fragmented systems. Faster delivery starts with removing that friction.",
+      "tags": [
+        "Engineering leadership",
+        "Modernization",
+        "Delivery"
+      ],
+      "sourceUrl": "https://www.linkedin.com/pulse/why-some-companies-move-slower-than-competitors-even-talented-dan-uchyc/",
+      "paragraphs": [
+        "Executives in large organizations often ask the same question: “Why does it take us so much longer than our competitors to launch something new?”",
+        "The initiative might be a new sales channel, an AI capability, an acquisition integration, or a change to fulfillment. The experience is familiar: dates slip, costs rise, teams get frustrated, and the business starts to doubt whether engineering can deliver.",
+        "It’s tempting to treat that as an execution problem. Sometimes it is. But before asking talented teams to move faster, I’d look at what they have to work around. Years of fragmented systems and processes can turn an ordinary business change into a coordination project."
+      ],
+      "sections": [
+        {
+          "heading": "A new initiative inherits the old complexity",
+          "paragraphs": [
+            "An enterprise may have several order management systems, disconnected product information platforms, poorly governed master data, and digital assets spread across repositories. Add applications built for historical exceptions, spreadsheet-based operations, manual reconciliation, and knowledge held by a few people rather than captured in systems.",
+            "These problems reinforce one another. Teams encounter conflicting definitions, duplicated logic, unclear ownership, and data they cannot rely on. Every new project has to negotiate the same gaps.",
+            "Take a request to launch products in a new marketplace. It sounds like a sales initiative. In practice, it may require rebuilding product data structures, reconciling inventory definitions, normalizing prices, aligning taxonomies, mapping fulfillment processes, and cleaning up digital assets. Then come the custom integrations and temporary manual workflows.",
+            "The team isn’t simply launching a channel. It’s doing part of the enterprise’s unfinished modernization work under a launch deadline."
+          ]
+        },
+        {
+          "heading": "Parallel work still draws on the same people",
+          "paragraphs": [
+            "A reasonable executive response is to ask whether the organization can repair its foundations while accelerating new initiatives. It can, but the capacity has to be real. Attention, specialist knowledge, and tolerance for change are limited.",
+            "Without that capacity, projects tend to absorb the problem in one of two ways. They slow down while teams compensate for weak foundations, or they meet the date by adding more exceptions: another integration, another duplicate data store, another spreadsheet, another manual step.",
+            "The second outcome can look like success. It also leaves the next team with more to untangle. Repeated often enough, the effort to deliver quickly makes future delivery harder."
+          ]
+        },
+        {
+          "heading": "AI makes the gaps harder to ignore",
+          "paragraphs": [
+            "AI raises expectations for product enrichment, customer support, pricing, forecasting, content generation, and supply-chain optimization. Those capabilities still depend on the operating model underneath them.",
+            "If two systems disagree about a product or a customer, an AI workflow needs a reliable way to resolve that disagreement. If nobody owns the data, the model cannot supply ownership. If a process depends on inconsistent manual steps, automating it adds another layer of fragility.",
+            "Weak governance introduces operational and compliance risks as well. AI can expose deficiencies that people previously managed through judgment, institutional knowledge, and repeated reconciliation. It does not make those deficiencies disappear."
+          ]
+        },
+        {
+          "heading": "Modernization needs a business priority",
+          "paragraphs": [
+            "Leadership has to decide how much capacity goes toward repairing foundations and how much goes toward new initiatives. There is no universal allocation. The mistake is to treat modernization as something engineering will fit around the real work.",
+            "Reliable data and consistent processes affect how quickly a business can enter a channel, support a customer, or integrate an acquisition. Platform consolidation and clear governance can reduce coordination costs across many projects. Those are business capabilities worth prioritizing.",
+            "That doesn’t mean suspending innovation until the architecture is perfect. It means being explicit about which foundational problems are constraining the outcomes the business wants most."
+          ]
+        },
+        {
+          "heading": "Fix the friction that keeps recurring",
+          "paragraphs": [
+            "I’d start with a high-friction operational domain rather than a plan to repair everything. Find the changes that repeatedly stall there, identify the systems and handoffs involved, and establish who owns the capability.",
+            "The work may include reducing unnecessary system duplication, standardizing a core process, creating a durable integration pattern, or replacing a spreadsheet-dependent operation. Data governance should precede advanced automation where unreliable data is the bottleneck.",
+            "The case for that investment should describe an outcome. “Improve the architecture” is hard to prioritize against a commercial deadline. An explicit target such as reducing a new-channel launch from 12 months to 12 weeks gives leadership something to assess. That is an example of a goal, not a claim that every organization can achieve it.",
+            "The aim is to create capabilities that the next initiative can reuse, rather than leave behind another collection of project-specific workarounds."
+          ]
+        },
+        {
+          "heading": "Make change less expensive",
+          "paragraphs": [
+            "Accumulated complexity often becomes visible through slow delivery, higher operating costs, exhausted teams, and transformations that never reach their intended outcome. By then, investing in the foundations can feel especially difficult because the business needs results immediately.",
+            "Putting the work off does not preserve capacity indefinitely. It passes the same costs to future initiatives, usually with more exceptions attached.",
+            "Agile practices can help a team organize its work. Sustainable speed also needs an operating model that allows change without extraordinary effort: clear ownership, dependable systems, governed data, fewer unnecessary handoffs, and priorities that match the available capacity.",
+            "When a competitor moves faster, the useful question may be less about how hard its people work and more about how much friction they have to carry."
+          ]
+        }
+      ],
+      "linkedinExtract": "When a new sales channel turns into a product-data cleanup, an inventory reconciliation, and a custom integration project, the launch date tells you only part of the story.\n\nThe team is carrying work that earlier initiatives left behind. Asking it to move faster won’t remove those dependencies.\n\nI’ve written about how fragmented systems slow down capable teams, why AI brings that friction into sharper focus, and how to connect foundational modernization to a business outcome leadership can prioritize."
+    },
+    {
+      "slug": "local-ai-workloads",
+      "title": "Why More AI Workloads Should Move Back to the Local Machine",
+      "date": "2026-05-26",
+      "excerpt": "Open models make local inference worth a serious look for recurring engineering work. The decision should turn on accuracy, cost, latency, and control—not a preference for local or cloud.",
+      "tags": [
+        "Local AI",
+        "Open models",
+        "Engineering"
+      ],
+      "sourceUrl": "https://www.linkedin.com/pulse/why-more-ai-workloads-should-move-back-local-machine-dan-jallits-izouf/",
+      "paragraphs": [
+        "For the past two years, much of the AI industry has focused on centralized inference: frontier models running on large cloud GPU clusters, with recurring bills to match. Some workloads justify that approach. But I think we’re overlooking what open models running locally can offer.",
+        "A compelling demo answers whether a model can do something. Deploying it across an organization raises different questions: how often will it run, what will it cost, which data will it touch, and who will control the workflow?"
+      ],
+      "sections": [
+        {
+          "heading": "A pilot’s bill is a poor guide to production",
+          "paragraphs": [
+            "Early experiments are easy to approve. Usage is limited, the results are promising, and a few dollars a day rarely attract much scrutiny. The economics change when a workflow runs continuously or becomes part of everyone’s working day.",
+            "Coding assistants, internal copilots, document summarization, retrieval, batch enrichment, classification, and multi-agent orchestration all add demand. Contexts get larger, agents make additional calls, and a loop that goes unnoticed during a demo can create a real bill.",
+            "At that point, token usage belongs in the infrastructure conversation. A team needs to understand its recurring workloads before deciding that every one of them belongs behind a hosted frontier API."
+          ]
+        },
+        {
+          "heading": "Choose enough capability for the task",
+          "paragraphs": [
+            "Open-weight models from organizations including Meta, Mistral AI, Alibaba Cloud, and Google have made local and self-hosted execution more useful. That does not make every model suitable for every task, or every model license suitable for every deployment.",
+            "Many operational workflows need consistent results within a narrow domain. Ticket classification, summarization, structured extraction, semantic search, schema translation, boilerplate code, SQL generation, embeddings, and documentation drafts are candidates for evaluation.",
+            "The criterion is the least costly deployment that meets the required accuracy and reliability. A small model that misses important details is not a bargain. A frontier model whose additional capability does not improve the workflow may be an unnecessary expense."
+          ]
+        },
+        {
+          "heading": "Keep frontier models where they earn their place",
+          "paragraphs": [
+            "Complex synthesis, unfamiliar problems, advanced coding, research, and difficult multi-domain reasoning may still benefit substantially from frontier models. Architecture reviews, legal analysis, and strategy work can place demands on a model that a narrower local setup cannot meet.",
+            "Those examples also need appropriate review; access to a stronger model does not remove the consequences of an incorrect answer.",
+            "I’m not proposing that an organization replace all hosted inference. I’m proposing that it identify which workloads justify it. The architecture should follow the work rather than a commitment to either cloud services or local hardware."
+          ]
+        },
+        {
+          "heading": "What local inference changes",
+          "paragraphs": [
+            "Local execution shifts some spending from per-request charges to hardware and operation. That can make recurring workloads more predictable, particularly when the hardware is well used. Power, support, upgrades, and replacement remain part of the cost.",
+            "A lower marginal cost can make more automation worth evaluating. The next question still needs to be whether the process should be automated, how mistakes will be handled, and where a person must remain involved.",
+            "Local inference also removes a network round trip. That can improve the feel of a coding tool or desktop assistant, although a slow local model may take longer overall than a fast hosted service. End-to-end latency is what the user experiences.",
+            "Keeping source code, customer records, financial information, security findings, or proprietary research inside a controlled environment can reduce external disclosure. It does not remove the need for access controls, device security, logging policies, and careful handling of model outputs.",
+            "Open models also give a team more deployment options. Those options can reduce exposure to provider pricing changes, rate limits, API outages, model deprecations, policy changes, and regional availability. They bring their own dependencies and maintenance work, which belong in the comparison."
+          ]
+        },
+        {
+          "heading": "Start with knowledge the team already owns",
+          "paragraphs": [
+            "Engineering organizations have a substantial body of operational material: runbooks, infrastructure definitions, CI/CD pipelines, Terraform or OpenTofu repositories, API specifications, database schemas, incident histories, telemetry, and security findings.",
+            "That material makes useful starting points for bounded local or internal tools. A code-focused model might assist with a repository; an embedding model might support retrieval; a quantized instruction model might summarize a runbook. A specialized or fine-tuned model may help with internal terminology, provided the improvement is demonstrated.",
+            "Some of these workloads can run on a modern laptop. Others need a workstation, a small GPU server, or shared infrastructure. Model size, quantization, available memory, and concurrency determine the practical limits.",
+            "Possible applications include local coding assistance, internal RAG, self-hosted embeddings, log summaries, incident classification, infrastructure-drift analysis, and change-risk assessment. Sensitive environments may require an air-gapped deployment. These are candidates to test, not a checklist every team needs to implement."
+          ]
+        },
+        {
+          "heading": "Separate inference from permission to act",
+          "paragraphs": [
+            "The pattern I expect to see more often combines several components: a stronger model for difficult reasoning, a local or shared model for bounded operational work, a workflow engine for known execution paths, and a policy system that governs what actions are permitted.",
+            "Running an agent locally does not make its actions safe. A model that reviews a configuration or proposes a remediation should not automatically gain permission to change production infrastructure. Reliability, control, security, and cost all depend on the surrounding system."
+          ]
+        },
+        {
+          "heading": "Route by requirements, then measure the result",
+          "paragraphs": [
+            "A hybrid architecture can choose a deployment based on complexity, sensitivity, cost, latency, governance requirements, and the accuracy threshold. A repetitive extraction task may fit a local model. An unfamiliar research problem may justify a frontier model. A sensitive workflow needs an approved environment regardless of which model is capable enough.",
+            "Those routing decisions should reflect evaluations against actual work. “Simple” and “sensitive” are useful descriptions, but neither proves that a particular model or deployment is suitable.",
+            "The larger organizational change is recognizing that AI can be infrastructure a team operates, as well as a service it rents. That affects procurement, architecture, governance, and control of operational knowledge.",
+            "The next step is to find out how much of the work truly needs centralized frontier inference. I suspect many organizations will discover that it is less than they first assumed."
+          ]
+        }
+      ],
+      "linkedinExtract": "A document summary, an embedding request, and an unfamiliar architecture problem don’t need the same inference setup. Yet it’s easy to route all three through the same hosted model.\n\nOpen models make local and shared inference worth evaluating for recurring engineering work. That can change cost, latency, and control—but hardware ownership does not make inference free or automatically secure.\n\nThe full article looks at where local models fit, where frontier models still matter, and how to build a hybrid approach around measured requirements."
+    },
+    {
+      "slug": "multi-agent-ai-control-planes",
+      "title": "Multi-Agent AI Systems Need Control Planes, Not Autonomous Chaos",
+      "date": "2026-05-25",
+      "excerpt": "Agents can propose work without owning the authority to execute it. A control plane provides the contracts, policy checks, routing, and audit trail that make that separation practical.",
+      "tags": [
+        "AI agents",
+        "Governance",
+        "Distributed systems"
+      ],
+      "sourceUrl": "https://www.linkedin.com/pulse/multi-agent-ai-systems-need-control-planes-autonomous-dan-jallits-kwamc/",
+      "paragraphs": [
+        "In discussions about multi-agent AI, I keep seeing the same assumption: agents should call one another directly and take actions across infrastructure, APIs, and business systems on their own. It’s an appealing idea at small scale. In production, it leaves some difficult questions unanswered.",
+        "Who authorizes an action? Where are its limits enforced? What happens when one agent passes a task to another, and who can reconstruct the chain afterward?",
+        "I find distributed systems a more useful starting point than the idea of an “AI employee.” An agent needs a contract, a bounded set of capabilities, and a system that can decide whether its proposed work should happen."
+      ],
+      "sections": [
+        {
+          "heading": "A proposal is not permission",
+          "paragraphs": [
+            "The separation I favor is straightforward: agents reason about a task, policy determines what is permitted, and execution systems carry out approved work.",
+            "Sending an email, changing infrastructure, deploying code, deleting data, or calling a third-party system all have consequences outside the model’s response. Those actions should pass through a boundary that the reasoning agent does not control.",
+            "For example, an agent investigating a failed deployment could propose the following task:"
+          ],
+          "code": {
+            "language": "json",
+            "text": "{\n  \"intent\": \"investigate_failed_deployment\",\n  \"risk\": \"medium\",\n  \"requested_capabilities\": [\n    \"read_logs\",\n    \"read_repo\",\n    \"summarize_findings\"\n  ]\n}"
+          },
+          "after": [
+            "This envelope describes the requested work. It does not grant access. The control plane still has to validate it, establish the caller’s identity, and evaluate the request against policy. An agent’s own risk label is an input to that assessment, not the final authority."
+          ]
+        },
+        {
+          "heading": "Put the handoff service in charge of execution",
+          "paragraphs": [
+            "The implementation model I currently favor uses Hermes Agent for reasoning and task proposals, Open Policy Agent (OPA) for policy decisions, and a handoff service for routing and enforcement. Work then goes to a deterministic workflow engine such as n8n, or an interactive execution runtime such as OpenClaw.",
+            "Conceptually, the flow is:"
+          ],
+          "code": {
+            "language": "text",
+            "text": "Hermes Agent\n    ↓\nTask envelope\n    ↓\nHandoff service\n    ↓\nOPA policy decision\n    ↓\nApproved execution via n8n or OpenClaw\n    ↓\nAudit record and execution status"
+          },
+          "after": [
+            "The handoff service is the operational control plane. It validates and normalizes requests, evaluates policy decisions, applies approval requirements, routes permitted work, records an audit trail, and returns status.",
+            "That boundary only works if an agent cannot bypass it. Execution systems need to accept the enforced capability limits rather than act on an unrestricted copy of the original request. The tool choices matter less than preserving that contract."
+          ]
+        },
+        {
+          "heading": "Known workflows and investigations need different paths",
+          "paragraphs": [
+            "Creating a ticket, sending a notification, running a backup, synchronizing systems, triggering CI, or generating a scheduled report can follow an explicit workflow. A workflow engine such as n8n is a reasonable place to execute that known path.",
+            "Investigating unusual latency, reviewing a suspicious email, triaging an inbox, comparing vendor proposals, or analyzing an operational failure involves interpretation. An interactive runtime can support that work, including clarification and human review when needed.",
+            "Both paths require controls. The distinction is how the work is carried out: a known sequence of operations, or an investigation whose next step depends on what it finds. Treating them as interchangeable makes it harder to define reliable execution boundaries."
+          ]
+        },
+        {
+          "heading": "Policy decisions must be enforced outside the agent",
+          "paragraphs": [
+            "OPA can provide an external decision about access, permitted operations, approval requirements, and routing. It can distinguish a read-only investigation from a production change and deny requests that exceed the caller’s authority.",
+            "A decision for an investigative task might look like this:"
+          ],
+          "code": {
+            "language": "json",
+            "text": "{\n  \"allow\": true,\n  \"route\": \"openclaw\",\n  \"approval_required\": true,\n  \"allowed_capabilities\": [\n    \"read_logs\",\n    \"read_repo\",\n    \"propose_fix\"\n  ],\n  \"denied_capabilities\": [\n    \"deploy_production\",\n    \"merge_pr\"\n  ]\n}"
+          },
+          "after": [
+            "Here, “allow” does not waive the approval requirement. The handoff service must obtain that approval before executing the permitted work. It must also keep production deployment and pull-request merging out of the execution context.",
+            "OPA supplies the policy decision; it does not enforce the downstream action by itself. The service and executor have to make the decision effective. A reasoning agent should not be able to approve its own request or expand its own capabilities."
+          ]
+        },
+        {
+          "heading": "Design for the failure you will have to explain",
+          "paragraphs": [
+            "Production systems need explicit contracts, capability boundaries, observability, audit records, approval flows, and a route to a person when the system cannot proceed safely. Those requirements become more important when one task can involve several agents and services.",
+            "We have dealt with related problems in distributed systems: hidden coupling, unclear ownership, incomplete traces, and components with more authority than they need. Agent-based systems do not make those lessons obsolete.",
+            "The design I’d build toward is one where Hermes proposes work, OPA evaluates it, the handoff service enforces the decision, and n8n or OpenClaw executes within the approved limits. That gives the organization a place to inspect and control the handoff from a model’s suggestion to an action in the world."
+          ]
+        }
+      ],
+      "linkedinExtract": "If an agent proposes a production fix, who decides whether it can apply it? That question gets harder when several agents can pass tasks to one another.\n\nI favor an explicit boundary between reasoning and execution: a structured task proposal, an external policy decision, and a handoff service that enforces capability limits and approval requirements.\n\nThe full article walks through that control-plane design using Hermes Agent, OPA, n8n, and OpenClaw, including why known workflows and investigative work need different execution paths."
+    }
+  ],
   "resume": {
     "summary": "",
     "experience": [],
     "education": [],
     "skills": []
   },
-  "externalArticles": [
-    {
-      "title": "The economics of enterprise AI: why hybrid inference will win",
-      "url": "https://www.linkedin.com/pulse/economics-enterprise-ai-why-hybrid-inference-win-dan-jallits-4tmnc/"
-    },
-    {
-      "title": "Why some companies move slower than their competitors",
-      "url": "https://www.linkedin.com/pulse/why-some-companies-move-slower-than-competitors-even-talented-dan-uchyc/"
-    },
-    {
-      "title": "Why more AI workloads should move back to the local machine",
-      "url": "https://www.linkedin.com/pulse/why-more-ai-workloads-should-move-back-local-machine-dan-jallits-izouf/"
-    },
-    {
-      "title": "Multi-agent AI systems need control planes",
-      "url": "https://www.linkedin.com/pulse/multi-agent-ai-systems-need-control-planes-autonomous-dan-jallits-kwamc/"
-    }
-  ]
+  "externalArticles": [],
+  "siteUrl": "https://dan.jallits.com"
 }
