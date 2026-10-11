@@ -1,0 +1,36 @@
+{
+  "name": "Dan Jallits",
+  "title": "A personal corner of the web.",
+  "intro": "A home for the things I build, the ideas I explore, and the tools I use along the way.",
+  "about": "This is my space to share work, write in depth, and keep a record of what I\u2019m learning. You can also find me on GitHub and LinkedIn.",
+  "github": "https://github.com/djallits",
+  "linkedin": "https://www.linkedin.com/in/djallits/",
+  "uses": [],
+  "portfolio": [],
+  "projects": [],
+  "posts": [],
+  "resume": {
+    "summary": "",
+    "experience": [],
+    "education": [],
+    "skills": []
+  },
+  "externalArticles": [
+    {
+      "title": "The economics of enterprise AI: why hybrid inference will win",
+      "url": "https://www.linkedin.com/pulse/economics-enterprise-ai-why-hybrid-inference-win-dan-jallits-4tmnc/"
+    },
+    {
+      "title": "Why some companies move slower than their competitors",
+      "url": "https://www.linkedin.com/pulse/why-some-companies-move-slower-than-competitors-even-talented-dan-uchyc/"
+    },
+    {
+      "title": "Why more AI workloads should move back to the local machine",
+      "url": "https://www.linkedin.com/pulse/why-more-ai-workloads-should-move-back-local-machine-dan-jallits-izouf/"
+    },
+    {
+      "title": "Multi-agent AI systems need control planes",
+      "url": "https://www.linkedin.com/pulse/multi-agent-ai-systems-need-control-planes-autonomous-dan-jallits-kwamc/"
+    }
+  ]
+}
